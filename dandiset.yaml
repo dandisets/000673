@@ -41,7 +41,7 @@ citation: 'Daume, Jonathan; Kaminski, Jan; Schjetnan, Andrea G. P. ; Salimpour, 
   Khan, Umais; Kyzar, Michael; Reed, Chrystal M.; Anderson, William S.; Valiante,
   Taufik A.; Mamelak, Adam N.; Rutishauser, Ueli (2024) Data for: Control of working
   memory maintenance by theta-gamma phase amplitude coupling of human hippocampal
-  neurons (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234'
+  neurons (Version 0.240118.2135) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000673/0.240118.2135'
 contributor:
 - affiliation:
   - name: Department of Neurosurgery, Cedars-Sinai Medical Center
@@ -246,9 +246,9 @@ description: 'Retaining information in working memory (WM) is a demanding proces
 
   Note: sub-35_ses-1_ecephys+image.nwb is missing mean/std waveform data, but these
   data can be derived from the raw spike waveforms included in the file.'
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000673/0.240118.2135
 ethicsApproval: []
-id: DANDI:000673/draft
+id: DANDI:000673/0.240118.2135
 identifier: DANDI:000673
 keywords:
 - cognitive neuroscience
@@ -263,7 +263,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000673/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000673/0.240118.2135/assets.yaml
 name: 'Data for: Control of working memory maintenance by theta-gamma phase amplitude
   coupling of human hippocampal neurons'
 protocol: []
@@ -298,6 +298,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000673/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000673/0.240118.2135
+version: 0.240118.2135
 wasGeneratedBy: []
