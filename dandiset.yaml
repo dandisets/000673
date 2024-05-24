@@ -40,8 +40,8 @@ assetsSummary:
 citation: 'Daume, Jonathan; Kaminski, Jan; Schjetnan, Andrea G. P. ; Salimpour, Yousef;
   Khan, Umais; Kyzar, Michael; Reed, Chrystal M.; Anderson, William S.; Valiante,
   Taufik A.; Mamelak, Adam N.; Rutishauser, Ueli (2024) Data for: Control of working
-  memory maintenance by theta-gamma phase amplitude coupling of human hippocampal
-  neurons (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000673/draft'
+  memory by phase–amplitude coupling of human hippocampal neurons (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000673/draft'
 contributor:
 - affiliation:
   - name: Department of Neurosurgery, Cedars-Sinai Medical Center
@@ -220,6 +220,7 @@ contributor:
   roleName: []
   schemaKey: Organization
 dateCreated: '2023-09-26T20:41:29.787964+00:00'
+datePublished: '2024-05-24T17:58:37.705990+00:00'
 description: 'Retaining information in working memory is a demanding process that
   relies on cognitive control to protect memoranda-specific persistent activity from
   interference. However, how cognitive control regulates working memory storage is
@@ -263,11 +264,23 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000673/versions/draft/assets/
-name: 'Data for: Control of working memory maintenance by theta-gamma phase amplitude
-  coupling of human hippocampal neurons'
+name: 'Data for: Control of working memory by phase–amplitude coupling of human hippocampal
+  neurons'
 protocol: []
+publishedBy:
+  endDate: '2024-05-24T17:58:37.705990+00:00'
+  id: urn:uuid:ca9aad46-4560-44fb-81da-ec96228ab546
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-24T17:58:37.705990+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8ac4181b-9bda-499e-946d-2ddb4a27f04e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
-- identifier: 10.1038/s41586-024-07309-z
+- identifier: https://doi.org/10.1038/s41586-024-07309-z
   name: Control of working memory by phase–amplitude coupling of human hippocampal
     neurons
   relation: dcite:IsSourceOf
@@ -276,8 +289,8 @@ relatedResource:
   schemaKey: Resource
   url: https://www.nature.com/articles/s41586-024-07309-z
 - identifier: 10.5281/zenodo.10494533
-  name: 'Sample code for: Control of working memory maintenance by theta-gamma phase
-    amplitude coupling of human hippocampal neurons'
+  name: 'Sample code for: Control of working memory by phase–amplitude coupling of
+    human hippocampal neurons'
   relation: dcite:IsSupplementTo
   repository: Zenodo
   schemaKey: Resource
