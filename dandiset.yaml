@@ -12,9 +12,32 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 9764400739
+  numberOfFiles: 20
+  numberOfSubjects: 16
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - ElectrodeGroup
+  - Units
 citation: 'Daume, Jonathan; Kaminski, Jan; Schjetnan, Andrea G. P. ; Salimpour, Yousef;
   Khan, Umais; Kyzar, Michael; Reed, Chrystal M.; Anderson, William S.; Valiante,
   Taufik A.; Mamelak, Adam N.; Rutishauser, Ueli (2025) Data for: Control of working
