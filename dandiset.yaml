@@ -12,32 +12,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 23447043476
-  numberOfFiles: 44
-  numberOfSubjects: 36
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Homo sapiens - Human
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ElectricalSeries
-  - ElectrodeGroup
-  - Units
 citation: 'Daume, Jonathan; Kaminski, Jan; Schjetnan, Andrea G. P. ; Salimpour, Yousef;
   Khan, Umais; Kyzar, Michael; Reed, Chrystal M.; Anderson, William S.; Valiante,
   Taufik A.; Mamelak, Adam N.; Rutishauser, Ueli (2025) Data for: Control of working
@@ -186,6 +163,7 @@ contributor:
   - name: Division of Biology and Biological Engineering, California Institute of
       Technology
     schemaKey: Affiliation
+  email: ueli.rutishauser@cshs.org
   identifier: 0000-0002-9207-7069
   includeInCitation: true
   name: Rutishauser, Ueli
